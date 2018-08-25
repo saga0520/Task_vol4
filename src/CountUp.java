@@ -56,10 +56,10 @@ class ActionButton extends JFrame implements ActionListener {
 
 		//カウントアップボタンとリセットボタンを配置
 		JPanel buttonPanel;
-	    buttonPanel = new JPanel();
-	    buttonPanel.add(counter_button);
-	    buttonPanel.add(reset_button);
-	    add(buttonPanel);
+		buttonPanel = new JPanel();
+		buttonPanel.add(counter_button);
+		buttonPanel.add(reset_button);
+		add(buttonPanel);
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
