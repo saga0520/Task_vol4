@@ -34,8 +34,8 @@ class ActionButton extends JFrame implements ActionListener {
 		setLocationRelativeTo(null);
 
     	//初期設定：カウント0回を表示するラベルの作成
-        Label label = new Label("0 回");
-        label.setBounds(180,100,100,100);
+		Label label = new Label("0 回");
+		label.setBounds(180,100,100,100);
 		add(label);
 
 		//カウントアップボタンを押下した際の動作を設定
