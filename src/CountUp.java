@@ -51,7 +51,7 @@ class ActionButton extends JFrame implements ActionListener {
 		reset_button.addActionListener(e -> {
 			count = 0;
 			String str = count.toString();
-        	label.setText(str + " 回");
+			label.setText(str + " 回");
 		});
 
 		//カウントアップボタンとリセットボタンを配置
